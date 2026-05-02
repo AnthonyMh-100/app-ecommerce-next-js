@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Shop App
 
-## Getting Started
+Aplicación e-commerce construida con Next.js (App Router), enfocada en catálogo, carrito, checkout, autenticación y administración de productos.
 
-First, run the development server:
+## Resumen del proyecto
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Tienda con listado, detalle y categorías de productos.
+- Carrito de compras con estado persistente.
+- Flujo de checkout con dirección de entrega.
+- Gestión de órdenes por usuario.
+- Panel de administración para mantenimiento de productos.
+- Autenticación con credenciales y roles (`admin`, `user`).
+- Integración de pago con PayPal.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tecnologías principales
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Next.js 16
+- React 19
+- TypeScript
+- Tailwind CSS v4
+- Prisma ORM 7
+- PostgreSQL
+- NextAuth v5 (beta)
+- Zod
+- React Hook Form
+- Zustand
+- PayPal React SDK
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Scripts útiles
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
