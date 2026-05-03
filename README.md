@@ -26,6 +26,5 @@ Aplicación e-commerce construida con Next.js (App Router), enfocada en catálog
 - Zustand
 - PayPal React SDK
 
-## Scripts útiles
 
 
